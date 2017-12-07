@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import SecondWheel from './SecondWheel'
+// import SecondWheel from './SecondWheel'
 
 class GameOptions extends React.Component {
   constructor (props) {
@@ -12,10 +12,10 @@ class GameOptions extends React.Component {
   render () {
     return (
       <div>
-          <button className="button"><Link to='/gameoptions'>Let's play a game? Mwuhahah</Link></button>
+          <button className="button"><Link to='/gameoptions'>Let's play a game! Mwuhahah</Link></button>
           <br/>
           <br/>
-          <SecondWheel />
+          {/* <SecondWheel /> */}
       </div>
     )
   }

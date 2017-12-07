@@ -1,5 +1,6 @@
 import React from 'react'
 // import FirstWheel from './FirstWheel'
+// import ThirdWheel from './ThirdWheel'
 
 class RandomWheel extends React.Component {
   constructor (props) {
@@ -12,6 +13,7 @@ class RandomWheel extends React.Component {
     return (
       <div>
         <h1 className="subtitle is-1">Random Wheel Page</h1>
+        {/* <ThirdWheel /> */}
       </div>
     )
   }
