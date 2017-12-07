@@ -12571,7 +12571,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var App = function App() {
   return _react2.default.createElement(
-    _reactRouterDom.BrowserRouter,
+    _reactRouterDom.HashRouter,
     null,
     _react2.default.createElement(
       'div',
@@ -12581,8 +12581,7 @@ var App = function App() {
         null,
         'New Year App - completely bare'
       ),
-      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Greetings2.default }),
-      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/randomwheel', component: RandomWheel })
+      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Greetings2.default })
     )
   );
 };
