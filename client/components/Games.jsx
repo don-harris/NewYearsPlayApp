@@ -11,7 +11,7 @@ class GameOptions extends React.Component {
   render () {
     return (
       <div>
-          <button className="button"><Link to='/randomwheel'>Wheel of misfortune !</Link></button>
+          <button className="button"><Link to='/gameoptions'>Let's play a game? Mwuhahah</Link></button>
       </div>
     )
   }

@@ -12,7 +12,7 @@ server.use(cors('*'))
 server.use(bodyParser.json())
 server.use(express.static(path.join(__dirname, '../public')))
 
-server.use('/api/greetings', greetings)
+// server.use('/api/greetings', greetings)
 
 server.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'))

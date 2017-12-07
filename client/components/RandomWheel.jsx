@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 
 class RandomWheel extends React.Component {
   constructor (props) {
@@ -11,7 +10,7 @@ class RandomWheel extends React.Component {
   render () {
     return (
       <div>
-        <h1>Random Wheel Page</h1>
+        <h1 className="subtitle is-1">Random Wheel Page</h1>
       </div>
     )
   }
