@@ -1,11 +1,7 @@
-
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
-import testData from '../../data.json'
 
-import Deal from './DealComponents/Deal'
-
-class Company extends React.Component {
+class GameOptions extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
@@ -14,19 +10,11 @@ class Company extends React.Component {
   }
   render () {
     return (
-      <div className="column is-4 is-desktop-only company">
-        <div className="image">
-          <img src={this.props.deal.image}/>
-          <br/>
-          <div className="subtitle is-3 is-cyan">
-            <h2>{this.props.deal.Deal}</h2>
-          </div>
-          <button className="button"><Link to={`/deal/${this.props.deal.id}`}>Line It Up!</Link></button>{this.props.deal.Buyers}
-        </div>
-        <hr />
+      <div>
+          <button className="button"><Link to='/randomweheel'>Wheel of misfortune !</Link></button>
       </div>
     )
   }
 }
 
-export default Company
+export default GameOptions
