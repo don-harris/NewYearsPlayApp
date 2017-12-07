@@ -1,4 +1,5 @@
 import React from 'react'
+// import FirstWheel from './FirstWheel'
 
 class RandomWheel extends React.Component {
   constructor (props) {

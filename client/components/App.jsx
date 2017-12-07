@@ -9,7 +9,7 @@ const App = () => (
     <div className='app-container'>
       <h1 className="title is-1">New Year App - completely bare</h1>
       <hr/>
-      <Route path="/" component={Games} />
+      <Route exact path="/" component={Games} />
       <br/>
       <Route path="/gameoptions" component={GameOptions} />
       <Route path="/randomwheel" component={RandomWheel} />
